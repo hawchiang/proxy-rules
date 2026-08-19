@@ -1,4 +1,17 @@
 payload:
+  - IP-CIDR,0.0.0.0/8
+  - IP-CIDR,10.0.0.0/8
+  - IP-CIDR,100.64.0.0/
+  - IP-CIDR,127.0.0.0/
+  - IP-CIDR,169.254.0.0/16
+  - IP-CIDR,172.16.0.0/12
+  - IP-CIDR,192.168.0.0/16
+  - IP-CIDR,198.18.0.0/16
+  - IP-CIDR,224.0.0.0/4
+  - IP-CIDR6,::1/128
+  - IP-CIDR6,fc00::/7
+  - IP-CIDR6,fe80::/10
+  - IP-CIDR6,fd00::/8
   - IP-CIDR,1.255.62.0/24
   - IP-CIDR,101.32.104.0/21
   - IP-CIDR,101.32.118.0/23
@@ -320,4 +333,3 @@ payload:
   - IP-CIDR6,240e:f7:a070:100::/60
   - IP-CIDR6,240e:ff:9018:100::/60
   - IP-CIDR6,240e:ff:f100::/44
-  - GEOIP,CN
