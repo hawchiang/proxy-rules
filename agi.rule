@@ -1,0 +1,82 @@
+payload:
+  # Net.Coffee 出口检测。它会跟随 AI 组，便于检查当前节点。
+  - DOMAIN,ip.net.coffee
+
+  # ---------------- Claude / Anthropic ----------------
+  # 核心站点、API、认证、MCP 和用户内容
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,clau.de
+  - DOMAIN-SUFFIX,claudemcpclient.com
+  - DOMAIN-SUFFIX,claudemcpcontent.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-SUFFIX,mcp.anthropic.com
+  - DOMAIN-SUFFIX,console.anthropic.com
+  - DOMAIN-SUFFIX,workbench.anthropic.com
+
+  # CDN、认证和内容服务
+  - DOMAIN,servd-anthropic-website.b-cdn.net
+  - DOMAIN,anthropic.com.cdn.cloudflare.net
+  - DOMAIN,anthropic.auth0.com
+  - DOMAIN,anthropic-com.ghost.io
+  - DOMAIN-SUFFIX,cdn.anthropic.com
+
+  # 监控、风控和第三方组件
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN,browser-intake-us5-datadoghq.com
+  - DOMAIN-KEYWORD,datadog
+  - DOMAIN-KEYWORD,sift
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN,cdn.usefathom.com
+
+  # Claude Code 的 NTP 时区检测
+  - GEOSITE,category-ntp
+
+  # ---------------- OpenAI / ChatGPT / Codex ----------------
+  # 核心站点、API、短域名、Sora 和用户内容
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,chat.com
+  - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,crixet.com
+
+  # CDN、Azure 后端和实时通道
+  - DOMAIN,openai.com.cdn.cloudflare.net
+  - DOMAIN,openaicom.imgix.net
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,webpubsub.azure.com
+
+  # Arkose 人机验证
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN,openai-api.arkoselabs.com
+
+  # ChatGPT 实时语音
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+  - DOMAIN-SUFFIX,host.livekit.cloud
+  - DOMAIN-SUFFIX,turn.livekit.cloud
+
+  # OpenAI 专用监控
+  - DOMAIN,o33249.ingest.sentry.io
+  - DOMAIN,browser-intake-datadoghq.com
+
+  # ---------------- Other AI services ----------------
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,mistral.ai
+  - DOMAIN-SUFFIX,cohere.com
+  - DOMAIN-SUFFIX,cohere.ai
+  - DOMAIN-SUFFIX,openrouter.ai
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,replicate.com
