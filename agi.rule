@@ -72,7 +72,6 @@ payload:
   - DOMAIN-SUFFIX,githubcopilot.com
   - DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
   - DOMAIN-SUFFIX,x.ai
-  - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,cohere.com
