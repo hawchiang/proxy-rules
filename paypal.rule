@@ -1,0 +1,9 @@
+rules:
+  - DOMAIN-SUFFIX,paypal.com,PayPal
+  - DOMAIN-SUFFIX,paypalobjects.com,PayPal
+  - DOMAIN-SUFFIX,paypal.me,PayPal
+  - DOMAIN-SUFFIX,braintreegateway.com,PayPal
+  - DOMAIN-SUFFIX,braintreepayments.com,PayPal
+  - DOMAIN-SUFFIX,card.io,PayPal
+  - DOMAIN-SUFFIX,venmo.com,PayPal
+  - DOMAIN-SUFFIX,xoom.com,PayPal
